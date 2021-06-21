@@ -1,0 +1,103 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "editor.formatOnSave": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "cSpell.userWords": [
+        "Creational",
+        "Jewellery",
+        "asarray",
+        "blit",
+        "cdist",
+        "dtype",
+        "ftse",
+        "gmail",
+        "ilike",
+        "numpy",
+        "organisation",
+        "pyenv",
+        "pygame",
+        "pyproject",
+        "pytest",
+        "savetxt",
+        "scarlett",
+        "scipy",
+        "smtplib",
+        "sourcery",
+        "strftime",
+        "ttest",
+        "venv",
+        "vstack"
+    ],
+    "git.confirmSync": false,
+    "python.linting.flake8Enabled": true,
+    "bracket-pair-colorizer-2.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.5"
+    ],
+    "python.languageServer": "Pylance",
+    "editor.linkedEditing": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "diffEditor.renderSideBySide": false,
+    "editor.tokenColorCustomizations": {},
+    "workbench.colorTheme": "Night Owl (No Italics)",
+    "editor.fontSize": 16,
+    "python.analysis.diagnosticMode": "workspace",
+    "autoDocstring.guessTypes": false,
+    "debug.allowBreakpointsEverywhere": true,
+    "rust-analyzer.cargo.allFeatures": true,
+    "rust-client.engine": "rust-analyzer",
+    "rust.rustfmt_path": "",
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust"
+    },
+    "jupyter.askForKernelRestart": false,
+    "editor.fontFamily": "CaskaydiaCove Nerd Font Mono",
+    "editor.fontLigatures": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "jupyter.alwaysTrustNotebooks": true,
+    "latex-workshop.view.pdf.viewer": "external",
+    "workbench.productIconTheme": "material-product-icons",
+    "python.showStartPage": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "sourcery.token": "user_XfcJi2wA_xF53aG4AaCoTHCZOSI51IwwuwA8dtb5_aISfn4Y0POa_M__SK8",
+    "python.testing.pytestEnabled": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "advancedNewFile.exclude": {
+        "*/__pycache__": true
+    },
+    "editor.lineNumbers": "relative",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "vim.camelCaseMotion.enable": true,
+    "vim.easymotion": true,
+    "vim.replaceWithRegister": true,
+    "editor.cursorStyle": "line",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "python.linting.flake8Args": [
+        "--config=.flake8"
+    ],
+    "python.formatting.blackArgs": [
+        "--config=pyproject.toml"
+    ],
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/ben/.config/nvim/init.vim"
+}

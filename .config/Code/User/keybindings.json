@@ -1,0 +1,66 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+q",
+        "command": "python.runtests"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "acceptSelectedSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "showNextParameterHint",
+        "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "showPrevParameterHint",
+        "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "file-browser.stepOut",
+        "when": "inFileBrowser"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "file-browser.stepIn",
+        "when": "inFileBrowser"
+    },
+    {
+        "key": "ctrl+n", // "cmd+n" on mac
+        "command": "extension.advancedNewFile"
+    },
+    {
+        "key": "capslock",
+        "command": "vscode-neovim.escape",
+        "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+    },
+    {
+        "key": "capslock",
+        "command": "vscode-neovim.escape",
+        "when": "editorTextFocus && neovim.ctrlKeysInsert && neovim.init && neovim.mode == 'insert'"
+    }
+]
