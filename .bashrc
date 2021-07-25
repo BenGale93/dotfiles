@@ -30,6 +30,7 @@ shopt -s checkwinsize
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
+
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
@@ -118,7 +119,7 @@ fi
 
 source ~/git-prompt.sh
 
-export PATH=/usr/local/texlive/2020/bin/x86_64-linux:$PATH
+export PATH=/usr/local/texlive/2020/bin/x86_64-linux:/home/ben/.cargo/bin$PATH
 
 eval "$(oh-my-posh --init --shell bash --config ~/.poshthemes/my_theme.omp.json)"
 source "$HOME/.cargo/env"
@@ -132,3 +133,11 @@ fi
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 alias config='/usr/bin/git --git-dir=/home/ben/dotfiles/ --work-tree=/home/ben'
+
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
+
+alias vim='nvim'
