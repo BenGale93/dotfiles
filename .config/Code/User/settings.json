@@ -63,12 +63,9 @@
     "jupyter.askForKernelRestart": false,
     "editor.fontFamily": "CaskaydiaCove Nerd Font Mono",
     "editor.fontLigatures": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter-notebook",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
     "jupyter.alwaysTrustNotebooks": true,
     "latex-workshop.view.pdf.viewer": "external",
     "workbench.productIconTheme": "material-product-icons",
@@ -99,5 +96,10 @@
         "--config=pyproject.toml"
     ],
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-    "vscode-neovim.neovimInitVimPaths.linux": "/home/ben/.config/nvim/init.vim"
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/ben/.config/nvim/init.vim",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "terminal.integrated.defaultProfile.linux": "fish"
 }
