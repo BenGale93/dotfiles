@@ -17,6 +17,7 @@
         "ftse",
         "gmail",
         "ilike",
+        "noqa",
         "numpy",
         "organisation",
         "pyenv",
@@ -70,7 +71,6 @@
     "latex-workshop.view.pdf.viewer": "external",
     "workbench.productIconTheme": "material-product-icons",
     "python.showStartPage": false,
-    "python.analysis.typeCheckingMode": "basic",
     "sourcery.token": "user_XfcJi2wA_xF53aG4AaCoTHCZOSI51IwwuwA8dtb5_aISfn4Y0POa_M__SK8",
     "python.testing.pytestEnabled": true,
     "editor.quickSuggestions": {
@@ -101,5 +101,10 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "terminal.integrated.defaultProfile.linux": "fish"
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyArgs": [
+        "--config-file=pyproject.toml"
+    ],
+    "editor.bracketPairColorization.enabled": true
 }
