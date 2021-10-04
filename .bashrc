@@ -119,7 +119,7 @@ fi
 
 source ~/git-prompt.sh
 
-export PATH=/usr/local/texlive/2020/bin/x86_64-linux:/home/ben/.cargo/bin$PATH
+export PATH=/usr/local/texlive/2020/bin/x86_64-linux:/home/galeb/.cargo/bin$PATH
 
 eval "$(oh-my-posh --init --shell bash --config ~/.poshthemes/my_theme.omp.json)"
 source "$HOME/.cargo/env"
@@ -132,7 +132,7 @@ fi
 
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-alias config='/usr/bin/git --git-dir=/home/ben/dotfiles/ --work-tree=/home/ben'
+alias config='/usr/bin/git --git-dir=/home/galeb/dotfiles/ --work-tree=/home/galeb'
 
 alias ls='lsd'
 alias l='ls -l'

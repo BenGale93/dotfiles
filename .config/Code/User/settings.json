@@ -96,7 +96,7 @@
         "--config=pyproject.toml"
     ],
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
-    "vscode-neovim.neovimInitVimPaths.linux": "/home/ben/.config/nvim/init.vim",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/galeb/.config/nvim/init.vim",
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
