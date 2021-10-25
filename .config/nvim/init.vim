@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
 Plug 'https://github.com/bkad/CamelCaseMotion.git'
 Plug 'tpope/vim-surround'
 Plug 'haishanh/night-owl.vim'
